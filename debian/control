@@ -1,0 +1,12 @@
+Source: ros-melodic-copernicus-teleoperator
+Section: misc
+Priority: optional
+Maintainer: Sachin Devadiga <sachindevadiga894@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-actionlib-msgs, ros-melodic-catkin, ros-melodic-copernicus-msgs, ros-melodic-geometry-msgs, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-teleop-twist-joy, ros-melodic-teleop-twist-keyboard
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-copernicus-teleoperator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-actionlib-msgs, ros-melodic-copernicus-msgs, ros-melodic-geometry-msgs, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-teleop-twist-joy, ros-melodic-teleop-twist-keyboard
+Description: The copernicus_teleoperator package
