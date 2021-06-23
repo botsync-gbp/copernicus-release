@@ -1,0 +1,12 @@
+Source: ros-melodic-copernicus-description
+Section: misc
+Priority: optional
+Maintainer: Sachin Devadiga <sachindevadiga894@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-roslaunch, ros-melodic-velodyne-description
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-copernicus-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-urdf, ros-melodic-xacro
+Description: The copernicus_description package
