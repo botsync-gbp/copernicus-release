@@ -1,0 +1,12 @@
+Source: ros-melodic-copernicus-control
+Section: misc
+Priority: optional
+Maintainer: Sachin Devadiga <sachindevadiga894@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-controller-manager, ros-melodic-copernicus-msgs, ros-melodic-diff-drive-controller, ros-melodic-dynamic-reconfigure, ros-melodic-gazebo-ros-control, ros-melodic-joint-state-controller, ros-melodic-roscpp, ros-melodic-std-msgs, ros-melodic-twist-mux
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-copernicus-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-controller-manager, ros-melodic-copernicus-msgs, ros-melodic-diff-drive-controller, ros-melodic-dynamic-reconfigure, ros-melodic-gazebo-ros-control, ros-melodic-joint-state-controller, ros-melodic-roscpp, ros-melodic-std-msgs, ros-melodic-twist-mux
+Description: The copernicus_control package
